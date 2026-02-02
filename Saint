@@ -1,0 +1,23 @@
+<h1 style="color:#d6336c;">Mrs Nyeperayi ❤️</h1>
+<p>I have one important question for you…</p>
+<h2>Will you be my Valentine? 💘</h2>
+
+<button onclick="alert('Screenshot this and post it on your WhatsApp status 😘💚')"
+style="padding:14px 26px;font-size:18px;border:none;border-radius:10px;background:#d6336c;color:white;">
+Yes, of course 💕
+</button>
+
+<button id="no"
+style="position:absolute;padding:4px 8px;font-size:10px;background:#aaa;">
+No
+</button>
+
+<p style="margin-top:30px;">— Saint</p>
+
+<script>
+const n=document.getElementById('no');
+n.addEventListener('mouseover',()=>{
+n.style.left=Math.random()*(window.innerWidth-50)+'px';
+n.style.top=Math.random()*(window.innerHeight-30)+'px';
+});
+</script>
